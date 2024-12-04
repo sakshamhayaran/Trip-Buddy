@@ -11,7 +11,7 @@ html{
     scroll-behavior:smooth;
 }
 
-    /*Navgation Bar*/
+/*Navgation Bar*/
 #top{
     height:90vh;
     width:100%;
@@ -71,7 +71,7 @@ nav{
 /*#bar { display:none; margin:20px; color:black; }*/
 /*#navoptions_mini { display:none; }*/
 
-    /*HeroSection*/
+/*HeroSection*/
 #container1{
     width:100%;
     height:85%;
@@ -79,10 +79,10 @@ nav{
     align-items:center;
     justify-content:center;
     background-image:url(bgimage.png);
-/*    background-image:url(group1.png);*/
+    /*    background-image:url(group1.png);*/
     background-size:100% 100%;
 }
-    /*About*/
+/*About*/
 #about{
     width:100%;
     padding:50px 50px;
@@ -97,7 +97,7 @@ nav{
     padding-top : 40px;
 }
 
-    /*Destinations*/
+/*Destinations*/
 #destinations{
     display:flex;
     flex-wrap:wrap;
@@ -181,7 +181,7 @@ nav{
 .location{color:black;}
 .desc{color:black;}
 
-    /*Testimonial*/
+/*Testimonial*/
 .testimonial_container {
     width: 100%;
     margin: auto;
@@ -239,7 +239,7 @@ nav{
     font-weight: 400;
 }
 
-    /*Contact*/
+/*Contact*/
 #contact{
     background-color:#789db1;
     padding:50px 0px;
@@ -258,7 +258,7 @@ nav{
     gap:20px;
 }
 
-    /*Places*/
+/*Places*/
 .place_tour{
     padding:50px;
     background-color:black;
@@ -376,7 +376,7 @@ nav{
 }
 
 
-    /*Media Queries*/
+/*Media Queries*/
 /*@media (max-width:1000px) {*/
 
 /*    .options,#login-btn{ display:none; }*/
