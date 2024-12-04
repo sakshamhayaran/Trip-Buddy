@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Package Booking Form</title>
+    <style>
+        body {
+            font-family: Papyrus;
+            background-color: #fff8f0;
+            display: flex;
+            height:100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px 50px;
+            border-radius: 12px;
+            box-shadow: 0 24px 24px rgba(0,0,0,0.2);
+            width:40%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #555;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: 600;
+            color: #555;
+            margin-right: 20px;
+            flex: 1;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="number"] {
+            flex: 2;
+            padding: 12px 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            background-color: #86662c;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #bea474;
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="form-container">
+    <h1>Book Your Travel Package</h1>
+    <form id="contact_form">
+        <div class="form-group">
+            <label>Name:</label>
+            <input type="text" id="name"required>
+        </div>
+        <div class="form-group">
+            <label>Phone Number:</label>
+            <input type="text" id="phone" required>
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label>Travel Date:</label>
+            <input type="date" id="travel-date" required>
+        </div>
+        <div class="form-group">
+            <label>Number of Members:</label>
+            <input type="number" id="members" min="1" required>
+        </div>
+        <div class="form-group">
+            <input type="submit">
+        </div>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
