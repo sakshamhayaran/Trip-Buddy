@@ -377,7 +377,7 @@ nav{
 
 
 /*Media Queries*/
-/*@media (max-width:1000px) {*/
+@media (max-width:1000px) {
 
 /*    .options,#login-btn{ display:none; }*/
 /*    #bar{*/
@@ -416,32 +416,49 @@ nav{
 /*    #login-btn_mini:hover{*/
 /*        opacity:0.8;*/
 /*    }*/
-/*    .heaven{*/
-/*        margin:40px;*/
-/*        width:350px;*/
-/*    }*/
-/*    .h{*/
-/*        height:350px;*/
-/*        width:350px;*/
-/*    }*/
-/*    .places {*/
-/*        flex-direction: column;*/
-/*        margin:100px;*/
-/*    }*/
-/*    .place_image {*/
-/*        width: 100%;*/
-/*        height: auto;*/
-/*    }*/
-/*}*/
-/*@media (max-width:600px) {*/
-/*    .heaven{*/
-/*        margin:40px;*/
-/*        width:300px;*/
-/*    }*/
-/*    .h{*/
-/*        height:300px;*/
-/*        width:300px;*/
-/*    }*/
+    .options{font-size:1rem;}
+    .destination{
+        margin:40px;
+        width:350px;
+    }
+    .h{
+        height:350px;
+        width:350px;
+    }
+    .places {
+        flex-direction: column;
+        margin:100px;
+    }
+    .place_image {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:800px) {
+    #nav-logo{
+        display:none;
+    }
+    nav{padding:0px;}
+    #navoptions{
+        width:100%;
+        display:flex;
+        justify-content:space-evenly;
+    }
+    .options{padding:0px;}
+    #about h1{
+        font-size:2rem;
+    }
+    #about p{
+        font-size:1rem;
+    }
+    .destination{
+        margin:40px;
+        width:300px;
+    }
+    .h{
+        height:300px;
+        width:300px;
+    }
 /*    .testimonial_container {*/
 /*        padding: 0rem;*/
 /*    }*/
@@ -449,7 +466,26 @@ nav{
 /*        gap: 0rem;*/
 /*        margin: 2rem 0rem;*/
 /*    }*/
-/*    .places {*/
-/*        flex-direction: column;*/
-/*    }*/
-/*}*/
+    .testimonials_grid{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .header h1 {
+        font-size:2rem;
+    }
+    .header p {
+        font-size:1rem;
+    }
+    .card i {
+        font-size: 1rem;
+    }
+    .card p {
+        font-size: 0.8rem;
+    }
+    .places {
+        flex-direction: column;
+    }
+    #contact{
+        font-size:0.8rem;
+    }
+}
