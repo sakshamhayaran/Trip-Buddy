@@ -292,11 +292,10 @@ nav{
 }
 .packages{
     display:flex;
+    align-items:center;
+    justify-content:space-around;
     margin:100px;
     background-color:#fff8f0;
-    width:70%;
-    margin-left:auto;
-    margin-right:auto;
 }
 .slider-wrapper{
     display:flex;
@@ -425,13 +424,11 @@ nav{
         height:350px;
         width:350px;
     }
-    .places {
-        flex-direction: column;
-        margin:100px;
+    .packages{
+        flex-wrap:wrap;
     }
-    .place_image {
-        width: 100%;
-        height: auto;
+    .package_heading{
+        font-size:3.5rem;
     }
 }
 @media (max-width:800px) {
@@ -487,5 +484,37 @@ nav{
     }
     #contact{
         font-size:0.8rem;
+    }
+
+    .package_details h1{
+        font-size:2rem;
+    }
+    .days{
+        font-size:1rem;
+    }
+    .accomodation_text{
+        font-size:1.2rem;
+        margin-bottom:10px;
+    }
+    .places{
+        font-size:1rem;
+    }
+    .book {
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 0.8rem;
+    }
+    .slider{
+        height:400px;
+        width:400px;
+    }
+}
+@media (max-width:600px) {
+    .packages{
+        margin:50px 20px;
+    }
+    .slider{
+        height:200px;
+        width:200px;
     }
 }

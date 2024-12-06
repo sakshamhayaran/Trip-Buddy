@@ -5,23 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Package Booking Form</title>
     <style>
+        /* General Body Styles */
         body {
             font-family: Papyrus;
             background-color: #fff8f0;
             display: flex;
-            height:100vh;
+            height: 100vh;
             justify-content: center;
             align-items: center;
+            margin: 0;
         }
 
+        /* Form Container Styles */
         .form-container {
             background: rgba(255, 255, 255, 0.95);
             padding: 30px 50px;
             border-radius: 12px;
-            box-shadow: 0 24px 24px rgba(0,0,0,0.2);
-            width:40%;
+            box-shadow: 0 24px 24px rgba(0, 0, 0, 0.2);
+            width: 50%;  /* Default width (will scale with screen size) */
+            max-width: 800px; /* Maximum width to prevent the form from becoming too wide */
+            box-sizing: border-box;
         }
 
+        /* Heading Styles */
         h1 {
             text-align: center;
             color: #555;
@@ -29,33 +35,40 @@
             margin-bottom: 20px;
         }
 
+        /* Form Group Styles */
         .form-group {
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;  /* Allow labels and inputs to wrap on smaller screens */
             justify-content: space-between;
             margin-bottom: 20px;
         }
 
+        /* Label Styles */
         label {
             font-weight: 600;
             color: #555;
-            margin-right: 20px;
-            flex: 1;
+            margin-bottom: 8px;  /* Space between label and input */
+            flex: 1;  /* Make the label flexible */
+            min-width: 150px;  /* Prevent labels from becoming too small */
         }
 
+        /* Input Field Styles */
         input[type="text"],
         input[type="email"],
         input[type="date"],
         input[type="number"] {
-            flex: 2;
+            width: 100%;  /* Ensure inputs take full width of their container */
             padding: 12px 15px;
             border: 1px solid #ccc;
             border-radius: 6px;
             font-size: 15px;
+            box-sizing: border-box;  /* Prevent padding from affecting width */
+            flex: 2;  /* The input takes twice the width of the label */
         }
 
+        /* Submit Button Styles */
         input[type="submit"] {
-            width: 100%;
+            width: 100%;  /* Ensure submit button takes full width */
             padding: 15px;
             background-color: #86662c;
             color: white;
@@ -69,6 +82,7 @@
         input[type="submit"]:hover {
             background-color: #bea474;
         }
+
 
     </style>
 
