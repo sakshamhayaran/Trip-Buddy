@@ -1,3 +1,4 @@
+
 *{
     margin:0px;
     padding:0px;
@@ -148,32 +149,32 @@ nav{
     font-size:1.5rem;
 }
 #kashmir{
-    background-image:url(/Kashmir/kashmir.jpg);
+    background-image:url('Kashmir/kashmir.jpg');
     background-size:contain;
     border-radius:10px;
 }
 #manali{
-    background-image:url(/Manali/manali.jpg);
+    background-image:url('Manali/manali.jpg');
     background-size:contain;
     border-radius:10px;
 }
 #mussoorie{
-    background-image:url(/Mussoorie/mussoorie.jpg);
+    background-image:url('Mussoorie/mussoorie.jpg');
     background-size:contain;
     border-radius:10px;
 }
 #nanital{
-    background-image:url(/Nanital/nanital.jpg);
+    background-image:url('Nanital/nanital.jpg');
     background-size:contain;
     border-radius:10px;
 }
 #ladakh{
-    background-image:url(/Ladakh/ladakh.png);
+    background-image:url('Ladakh/ladakh.png');
     background-size:contain;
     border-radius:10px;
 }
 #chopta{
-    background-image:url(/Chopta/chopta.jpg);
+    background-image:url('Chopta/chopta.jpg');
     background-size:contain;
     border-radius:10px;
 }
@@ -456,13 +457,13 @@ nav{
         height:300px;
         width:300px;
     }
-/*    .testimonial_container {*/
-/*        padding: 0rem;*/
-/*    }*/
-/*    .testimonials_grid {*/
-/*        gap: 0rem;*/
-/*        margin: 2rem 0rem;*/
-/*    }*/
+    /*    .testimonial_container {*/
+    /*        padding: 0rem;*/
+    /*    }*/
+    /*    .testimonials_grid {*/
+    /*        gap: 0rem;*/
+    /*        margin: 2rem 0rem;*/
+    /*    }*/
     .testimonials_grid{
         display:flex;
         flex-wrap:wrap;
@@ -513,8 +514,10 @@ nav{
     .packages{
         margin:50px 20px;
     }
+}
+@media (max-width:450px) {
     .slider{
-        height:200px;
-        width:200px;
+        height:350px;
+        width:350px;
     }
 }
