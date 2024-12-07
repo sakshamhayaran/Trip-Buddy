@@ -514,3 +514,9 @@ nav{
         margin:50px 20px;
     }
 }
+@media (max-width:450px) {
+    .slider{
+        height:300px;
+        width:300px;
+    }
+}
