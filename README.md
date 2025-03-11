@@ -7,3 +7,6 @@ This project involved:
 • The website displays detailed information on transportation, accommodation, meals, and sightseeing tours, providing users with a seamless and stress-free planning experience.
 
 • Built using HTML, CSS, and JavaScript, ensuring an intuitive layout and smooth navigation for easy exploration and booking of travel packages.
+
+
+Live Preview : https://sakshamhayaran.github.io/Trip-Buddy/
