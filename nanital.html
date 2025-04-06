@@ -1,144 +1,303 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Nanitalr</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Nanital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-<div class="place_tour" style="background-image:url(/Nanital/nanital_header.jpg);">
-    <h1 class="package_heading">Nanital Tour Packages</h1>
-    <div class="icons">
-        <i class="fa-solid fa-bus"></i>
-        <i class="fa-solid fa-bed"></i>
-        <i class="fa-solid fa-mountain-sun"></i>
-        <i class="fa-solid fa-utensils"></i>
+<!-- Header -->
+<div class="mb-5" style="background-image:url(Nanital/nanital_header.jpg);background-size:cover;">
+    <div class="text-center text-white py-5">
+        <h1 class="display-4"><b>Nanital Tour Packages</b></h1>
+        <div class="icons my-4">
+            <i class="fa-solid fa-bus fa-2x mx-3"></i>
+            <i class="fa-solid fa-hotel fa-2x mx-3"></i>
+            <i class="fa-solid fa-mountain-sun fa-2x mx-3"></i>
+            <i class="fa-solid fa-utensils fa-2x mx-3"></i>
+        </div>
+        <p class="bg-white text-danger d-inline-block py-2 px-3" style="border-radius:20px;"><b>Packages available from ₹ 7999 - ₹ 12999</b></p>
     </div>
-    <p class="price_range">Packages available from ₹ 3999 - ₹ 6999 </p>
 </div>
 
-<div class="packages">
-    <div class="slider-wrapper">
-        <div class="slider">
-            <img src="/Nanital/nanital_lake.jpg">
-            <img src="/Nanital/mall_road.jpg">
-            <img src="/Nanital/nanital_zoo.jpg">
+<!--Image & Details-->
+<div class="container marketing py-5">
+
+    <div class="row featurette my-5 border">
+        <div class="col-md-7 d-flex flex-column align-items-center justify-content-center">
+            <div style="width:100%;display:flex;align-items:center;justify-content:space-between;">
+                <h2 class="featurette-heading fw-normal lh-1"><b>Price ₹3999</b></h2>
+                <h4 class="featurette-heading fw-normal lh-1 text-danger mt-3"><i>3 Days - 2 Nights</i></h4>
+            </div>
+
+            <div class="accomodations">
+                <h4 class="featurette-heading fw-normal lh-1 border-top px-auto text-center mt-5">Accomodations</h4>
+                <div class="accomodation">
+                    <i class="fa-solid fa-bus"></i>
+                    <i class="fa-solid fa-hotel"></i>
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+            </div>
+            <div class="accomodations mt-5">
+                <h4 class="featurette-heading fw-normal lh-1 border-top px-auto text-center">Visiting Places</h4>
+                <h5>Nanital Lake -> Mall Road -> Nanital Zoo</h5>
+            </div>
+            <a href="login.html" class="btn btn-outline-danger my-4 px-5 border-2 mt-auto d-inline-flex align-items-center ">
+                Book Now
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-circle-fill pl-2" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg></a>
         </div>
-    </div>
-    <div class="package_details">
-        <h1>Price : ₹ 3999</h1>
-        <p class="days">3 Days - 2 Nights</p>
-        <hr>
-        <div class="accomodations">
-            <p class="accomodation_text"><b>Accomodations</b></p>
-            <div class="accomodation">
-                <i class="fa-solid fa-bus"></i>
-                <i class="fa-solid fa-hotel"></i>
-                <i class="fa-solid fa-mountain-sun"></i>
-                <i class="fa-solid fa-utensils"></i>
+        <div class="col-md-5 image">
+            <div id="carouselExampleIndicators1" class="carousel slide w-100" style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Nanital/nanital_lake.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/mall_road.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/nanital_zoo.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-        <hr>
-        <div class="visiting_spots"><b>Visiting Spots</b></div>
-        <div class="places">
-            <p>Nanital Lake</p>
-            <p>Mall Road</p>
-            <p>Nanital Zoo</p>
-        </div>
-        <form action="login.html"><button class="book">Book Now</button></form>
     </div>
-</div>
 
-<div class="packages">
-    <div class="slider-wrapper">
-        <div class="slider">
-            <img src="/Nanital/naina_peak.png">
-            <img src="/Nanital/nanital_lake.jpg">
-            <img src="/Nanital/mall_road.jpg">
-            <img src="/Nanital/nanital_zoo.jpg">
+    <div class="row featurette mb-5 border">
+        <div class="col-md-7 order-md-2 d-flex flex-column align-items-center justify-content-center text-center">
+            <div style="width:100%;display:flex;align-items:center;justify-content:space-between;">
+                <h2 class="featurette-heading fw-normal lh-1"><b>Price ₹4999</b></h2>
+                <h4 class="featurette-heading fw-normal lh-1 text-danger mt-3"><i>4 Days - 3 Nights</i></h4>
+            </div>
+            <div class="accomodations">
+                <h4 class="featurette-heading fw-normal lh-1 border-top px-auto text-center mt-5">Accomodations</h4>
+                <div class="accomodation">
+                    <i class="fa-solid fa-bus"></i>
+                    <i class="fa-solid fa-hotel"></i>
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+            </div>
+            <div class="accomodations">
+                <h4 class="featurette-heading fw-normal lh-1 border-top px-auto text-center mt-5">Visiting Places</h4>
+                <h5>Naina Peak -> Nanital Lake -> Mall Road -> Nanital Zoo</h5>
+            </div>
+            <a  href="login.html"  class="btn btn-outline-danger d-inline-flex align-items-center my-4 px-5 border-2 mt-auto" type="button">
+                Book Now
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-circle-fill pl-2" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg>
+            </a>
         </div>
-    </div>
-    <div class="package_details">
-        <h1>Price : ₹ 4999</h1>
-        <p class="days">4 Days - 3 Nights</p>
-        <hr>
-        <div class="accomodations">
-            <p class="accomodation_text"><b>Accomodations</b></p>
-            <div class="accomodation">
-                <i class="fa-solid fa-bus"></i>
-                <i class="fa-solid fa-hotel"></i>
-                <i class="fa-solid fa-mountain-sun"></i>
-                <i class="fa-solid fa-utensils"></i>
+        <div class="col-md-5  image">
+            <div id="carouselExampleIndicators2" class="carousel slide" style="box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Nanital/naina_peak.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/nanital_lake.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/mall_road.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/nanital_zoo.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-        <hr>
-        <div class="visiting_spots"><b>Visiting Spots</b></div>
-        <div class="places">
-            <p>Naina Peak</p>
-            <p>Nanital Lake</p>
-            <p>Mall Road</p>
-            <p>Nanital Zoo</p>
-        </div>
-        <form action="login.html"><button class="book">Book Now</button></form>
     </div>
-</div>
 
-<div class="packages">
-    <div class="slider-wrapper">
-        <div class="slider">
-            <img src="/Nanital/snow_view.jpg">
-            <img src="/Nanital/tiffin_top.jpeg">
-            <img src="/Nanital/naina_peak.png">
-            <img src="/Nanital/nanital_lake.jpg">
-            <img src="/Nanital/mall_road.jpg">
-            <img src="/Nanital/nanital_zoo.jpg">
+    <div class="row featurette mb-5 border">
+        <div class="col-md-7 d-flex flex-column align-items-center justify-content-center">
+            <div style="width:100%;display:flex;align-items:center;justify-content:space-between;">
+                <h2 class="featurette-heading fw-normal lh-1"><b>Price ₹6999</b></h2>
+                <h4 class="featurette-heading fw-normal lh-1 text-danger mt-3"><i>6 Days - 5 Nights</i></h4>
+            </div>
+            <div class="accomodations">
+                <h4 class="featurette-heading fw-normal lh-1 border-top px-auto text-center mt-5">Accomodations</h4>
+                <div class="accomodation">
+                    <i class="fa-solid fa-bus"></i>
+                    <i class="fa-solid fa-hotel"></i>
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+            </div>
+            <div class="accomodations">
+                <h4 class="featurette-heading fw-normal lh-1 border-top px-auto text-center mt-5">Visiting Places</h4>
+                <h5>Snow View -> Tiffin Top -> Naina Peak -> Nanital Lake -> Mall Road -> Nanital Zoo</h5>
+            </div>
+            <a  href="login.html" class="btn btn-outline-danger d-inline-flex align-items-center my-4 px-5 border-2 mt-auto" type="button">
+                Book Now
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-circle-fill pl-2" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                </svg>
+            </a>
         </div>
-    </div>
-    <div class="package_details">
-        <h1>Price : ₹ 6999</h1>
-        <p class="days">6 Days - 5 Nights</p>
-        <hr>
-        <div class="accomodations">
-            <p class="accomodation_text"><b>Accomodations</b></p>
-            <div class="accomodation">
-                <i class="fa-solid fa-bus"></i>
-                <i class="fa-solid fa-hotel"></i>
-                <i class="fa-solid fa-mountain-sun"></i>
-                <i class="fa-solid fa-utensils"></i>
+        <div class="col-md-5 image">
+            <div id="carouselExampleIndicators3" class="carousel slide" style="box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Nanital/snow_view.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/tiffin_top.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/naina_peak.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/nanital_lake.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/mall_road.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Nanital/nanital_zoo.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-        <hr>
-        <div class="visiting_spots"><b>Visiting Spots</b></div>
-        <div class="places">
-            <p>Snow View</p>
-            <p>Tiffin Top</p>
-            <p>Naina Peak</p>
-            <p>Nanital Lake</p>
-            <p>Mall Road</p>
-            <p>Nanital Zoo</p>
-        </div>
-        <form action="login.html"><button class="book">Book Now</button></form>
     </div>
+
+</div>
+<hr class="featurette-divider">
 </div>
 
-<!--Contact-->
-<div id="contact">
-    <div id="c-details">
-        <p>Phone No. : +9170XXXXXX05</p>
-        <p>Email : tripbuddy@gmail.com</p>
+<!--Footer-->
+<footer class="py-3 px-3 w-100">
+
+    <div class="row w-100 py-3 d-flex align-items-center justify-content-between w-100">
+        <div class="col-6 col-md-2">
+            <p>Phone No. : +9170XXXXXX05</p>
+            <p>Email : tripbuddy@gmail.com</p>
+            <ul class="list-unstyled d-flex">
+                Follow :
+                <li class="ms-3"><a class="text-dark" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg></a></li>
+                <li class="ms-3"><a class="text-dark" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                    </svg></a></li>
+                <li class="ms-3"><a class="text-dark" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                    </svg></a></li>
+                <li class="ms-3"><a class="text-dark" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                        <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+                    </svg></a></li>
+            </ul>
+
+        </div>
+        <div class="col-md-5 offset-md-1">
+            <form>
+                <h5>Subscribe to our updates/offers</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+            </form>
+        </div>
     </div>
-    <div id="social">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-x-twitter"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-discord"></i>
-    </div>
-    <div id="copyright">
+
+    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center border-top py-2">
         <p>© Copyright 2024, All Rights Reserved | Conditions of Use & Sale | Privacy Notice</p>
     </div>
-</div>
+</footer>
+
+
+
+
+
+
+
+<style>
+    html,body{
+        height:100%;
+        width:100%;
+    }
+    .accomodation {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:50px;
+        font-size:1.5rem;
+    }
+    .border {
+        background-color:#fff8f0;
+    }
+    footer{
+        background-color:#789db1;
+    }
+    @media (max-width:600px) {
+        .image{
+            max-width: 80%;
+            margin: 0 auto;
+        }
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
