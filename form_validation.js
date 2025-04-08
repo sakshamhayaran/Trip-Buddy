@@ -8,3 +8,7 @@ document.querySelector("#contact_form").addEventListener("submit", function () {
     alert("We will Contact you soon !");
     return false;   // prevent form submission since we're redirecting manually
 });
+
+function Subscribe() {
+    alert("Subscribed");
+}
