@@ -1,4 +1,4 @@
-TripBuddy - Your ultimate Travel Companion!
+#TripBuddy - Your ultimate Travel Companion!
 
 This project involved:
 
